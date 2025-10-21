@@ -66,7 +66,7 @@ export default function TaskItem({task, loading}: TaskItemProps){
                         onChange={handleChangeTaskStatus}
                         loading= {loading}
                         />
-                        {! loading ?<Text className={cx("flex-1", { "line-through": task?.concluded })}>
+                        {! loading ?<Text className={cx("flex-1", { "line-through": task?.concluded },"break-all", "min-w-0")}>
                             {task?.title}
                         </Text> :
                             <Skeleton className=" flex-1 h-6"/>

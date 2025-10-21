@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-*: initial;
+    --color-initial: initial;
+    --color-white: #ffffff;
+    --color-gray-100: #f3f3f6;
+    --color-gray-200: #e6e6e9;
+    --color-gray-300: #7a6e76;
+    --color-gray-400: #332d32;
+    --color-green-light: #1d9dcc;
+    --color-green-base: #52a5db;
+    --color-green-dark: #2f3c20;
+    --color-pink-light: #f9ce1e;
+    --color-pink-base: #c2574a;
+    --color-pink-dark: #804074; 
+
+    --font-sans: "Cairo", sans-serif;
+
+
+}

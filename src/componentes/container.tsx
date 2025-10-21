@@ -5,7 +5,7 @@ import React from "react";
 export const containerVariants= cva( "mx-auto",{
     variants:{
         size:{
-            md: "max-w[31.5rem] px-2 flex justify-center"
+            md: "max-w-md px-2 flex justify-center"
         }
     },
     defaultVariants:{

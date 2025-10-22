@@ -4,6 +4,6 @@ link->https://lista-afazeres-two.vercel.app/
 
 para devs que quiserem testar localmente
 
-git clone https://github.com/Luizrocha0/lista-afazeres.git
-pnpm install
-pnpm run dev
+1->git clone https://github.com/Luizrocha0/lista-afazeres.git
+2->pnpm install
+3->pnpm run dev
